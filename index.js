@@ -15,7 +15,7 @@ for (let i = 0; i < pixels.length; i++) {
 }
 
 function applyColor(event) {    
-    if (event.target.style.backgroundColor && event.target.style.backgroundColor != "whitesmoke") {
+    if (event.target.style.backgroundColor && event.target.style.backgroundColor !== "whitesmoke") {
         event.target.style.backgroundColor = "whitesmoke"
     } else {
         event.target.style.backgroundColor = currentColor
